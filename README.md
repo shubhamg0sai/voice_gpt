@@ -19,7 +19,6 @@ git clone https://github.com/shubhamg0sai/Voice_Gpt.git
 cd Voice_Gpt
 ```
 
-
 ## Installation
 
 > [!IMPORTANT]
@@ -35,7 +34,15 @@ pip install -r requriments.txt
 ```
 
 ## Documentation
-## open apikey.py file paste your api key there
+open apikey.py file paste your api key there
+```sh
+api_data="YOUR_API_KEY"
+```
 The API documentation can be found [here](https://platform.openai.com/docs).
+
+## run
+```sh
+python main.py
+```
 
 
