@@ -11,9 +11,14 @@ and offers both synchronous and asynchronous clients powered by [httpx](https://
 
 It is generated from our [OpenAPI specification](https://github.com/openai/openai-openapi) with [Stainless](https://stainlessapi.com/).
 
-## Documentation
+```sh
+git clone https://github.com/shubhamg0sai/Voice_Gpt.git
+```
 
-The API documentation can be found [here](https://platform.openai.com/docs).
+```sh
+cd Voice_Gpt
+```
+
 
 ## Installation
 
@@ -28,3 +33,9 @@ pip install openai
 ```sh
 pip install -r requriments.txt
 ```
+
+## Documentation
+## open apikey.py file paste your api key there
+The API documentation can be found [here](https://platform.openai.com/docs).
+
+
