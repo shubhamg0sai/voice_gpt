@@ -17,14 +17,15 @@ def speak(text):
     engine.runAndWait()
 
 def wish():
-    hour = x.strftime('%I')
+    hour = int(x.strftime('%I'))
     p = x.strftime('%p')
-    if 'AM' in p: 
+    if hour > 4 and hour < 12: 
         speak("Good morning sir")
+    elif hour >= 12 and hour < 17:
+        speak("good afternoon sir")
+    elif hour >= 17 and hour < 20:
+        speak("good evening sir")
+    elif hour >= 20 or hour < 4:
+        speak("its time to spleep sir")
     else:
-        if hour >= 12 and hour < 17:
-            speak("good afternoon sir")
-        elif hour >= 17 and hour < 20:
-            speak("good evening sir")
-        else:
-            speak("hello  sir")
+        speak("hello  sir")
