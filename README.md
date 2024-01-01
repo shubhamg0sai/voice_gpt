@@ -35,9 +35,9 @@ pip install -r requriments.txt
 
 ## Documentation
 open apikey.py file paste your api key there
-```sh
+'''
 api_data="YOUR_API_KEY"
-```
+'''
 The API documentation can be found [here](https://platform.openai.com/docs).
 
 ## run
