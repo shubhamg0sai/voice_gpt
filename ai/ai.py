@@ -6,7 +6,7 @@ prompt = " "
 def ai(query):
     openai.api_key = api_data
     global prompt
-    prompt=f'shubham: {query}\n '
+    prompt=f'sir: {query}\n '
     print(prompt)
     response=openai.Completion.create(
         model="text-davinci-003",
