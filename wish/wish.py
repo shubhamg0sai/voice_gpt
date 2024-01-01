@@ -19,7 +19,7 @@ def speak(text):
 def wish():
     hour = int(x.strftime('%I'))
     p = x.strftime('%p')
-    if hour > 4 and hour < 12: 
+    if hour > 4 and hour < 12 and "am" in p: 
         speak("Good morning sir")
     elif hour >= 12 and hour < 17:
         speak("good afternoon sir")
@@ -29,3 +29,4 @@ def wish():
         speak("its time to spleep sir")
     else:
         speak("hello  sir")
+wish()
