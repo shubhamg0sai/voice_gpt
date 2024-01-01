@@ -23,7 +23,7 @@ The API documentation can be found [here](https://platform.openai.com/docs).
 ```sh
 pip install openai
 ```
- ## Installation Requriments.txt
+ ## Install Requriments.txt
  
 ```sh
 pip install -r requriments.txt
